@@ -168,15 +168,15 @@ nav a:hover {
 }
 
 #imageOne {
-    background-image: url('img2/Img_1.jpg');
+    background-image: url('Img_1.jpg');
 }
 
 #imageTwo {
-    background-image: url('img2/Img_1.jpg');
+    background-image: url('Img_1.jpg');
 }
 
 #imageThree {
-    background-image: url('img2/Img_1.jpg');
+    background-image: url('Img_1.jpg');
 }
 
 #imageOne,#imageTwo,#imageThree {
