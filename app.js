@@ -1,10 +1,10 @@
 const html = document.documentElement;
-const canvas = document.getElementById("canvasAnimation");
+const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 120;
+const frameCount = 100;
 const currentFrame = index => (
-  `Img_${index.toString().padStart(5, '0')}.jpg`
+  `Img_${index.toString().padStart(5, '0')}-min.jpg`
 )
 
 const preloadImages = () => {
@@ -15,9 +15,9 @@ const preloadImages = () => {
 };
 
 const img = new Image()
-img.src = currentFrame(0);
-canvas.width=1999;
-canvas.height=1024;
+img.src = currentFrame(1);
+canvas.width=1920;
+canvas.height=1080;
 img.onload=function(){
   context.drawImage(img, 0, 0);
 }
